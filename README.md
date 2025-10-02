@@ -46,12 +46,14 @@
       margin: auto;
     }
     #about img {
-      width: 150px;
-      height: 150px;
+      width: 180px;
+      height: 180px;
       border-radius: 50%;
       display: block;
       margin: 0 auto 20px;
       object-fit: cover;
+      object-position: center;
+      border: 4px solid #4CAF50; /* circular border */
     }
     h2 {
       text-align: center;
@@ -98,8 +100,8 @@
         padding: 20px 10px;
       }
       #about img {
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
       }
     }
   </style>
