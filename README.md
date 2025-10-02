@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Kareena Choudhary | Personal Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
@@ -20,14 +20,9 @@
       text-align: center;
       padding: 20px;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      font-style: italic;
-    }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { font-size: 1.2rem; font-style: italic; }
+
     nav {
       display: flex;
       justify-content: center;
@@ -35,35 +30,33 @@
       background: #388E3C;
       padding: 10px 0;
     }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+
     section {
       padding: 40px 20px;
       max-width: 900px;
       margin: auto;
     }
+
+    /* ====== OVAL PROFILE IMAGE ====== */
     #about img {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
+      /* unequal width/height => creates an oval */
+      width: 220px;
+      height: 150px;
+      border-radius: 50%;            /* keeps the ellipse shape */
       display: block;
       margin: 0 auto 20px;
-      object-fit: cover;
+      object-fit: cover;             /* crop/center without distortion */
       object-position: center;
-      border: 4px solid #4CAF50; /* circular border */
+      border: 4px solid #4CAF50;     /* optional border */
     }
+
     h2 {
       text-align: center;
       margin-bottom: 20px;
       color: #4CAF50;
     }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
+    ul { list-style: none; padding: 0; }
     ul li {
       background: #e8f5e9;
       margin: 8px 0;
@@ -71,17 +64,11 @@
       border-radius: 5px;
       transition: background 0.3s, transform 0.2s;
     }
-    ul li:hover {
-      background: #C8E6C9;
-      transform: scale(1.02);
-    }
-    a {
-      color: #4CAF50;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+    ul li:hover { background: #C8E6C9; transform: scale(1.02); }
+
+    a { color: #4CAF50; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
     footer {
       background: #333;
       color: white;
@@ -89,19 +76,17 @@
       padding: 15px;
       margin-top: 20px;
     }
-    footer a {
-      color: #4CAF50;
-    }
+    footer a { color: #4CAF50; }
+
+    /* Mobile adjustments */
     @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.8rem;
-      }
-      section {
-        padding: 20px 10px;
-      }
+      header h1 { font-size: 1.8rem; }
+      section { padding: 20px 10px; }
+
+      /* scale the oval down proportionally on small screens */
       #about img {
-        width: 140px;
-        height: 140px;
+        width: 160px;
+        height: 110px;
       }
     }
   </style>
@@ -125,8 +110,8 @@
     <h2>About Me</h2>
     <img src="https://drive.google.com/uc?export=view&id=1hY63tD0-V6b8L4DE1Ud4k5TEDpNeEEEj" alt="Profile Photo">
     <p>
-      Hi, I’m Kareena Choudhary! I am passionate about technology and using it to create a positive impact in society. 
-      My skills combine technical expertise with community engagement to drive meaningful change. 
+      Hi, I’m Kareena Choudhary! I am passionate about technology and using it to create a positive impact in society.
+      My skills combine technical expertise with community engagement to drive meaningful change.
       I love working on projects that empower people and contribute to building a better future.
     </p>
   </section>
